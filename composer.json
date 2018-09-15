@@ -1,0 +1,21 @@
+{
+    "name": "tahir996/exp",
+    "description": "example project",
+    "type": "libriar",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tagir Nigmatullin",
+            "email": "tohaarmiya@mail.ru"
+        }
+    ], 
+    "autoload":{
+      "psr-4":{
+            "tahir996\\parser\\": "sec/"
+      }  
+    },
+    "minimum-stability": "stable"
+}
